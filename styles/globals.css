@@ -15,6 +15,10 @@
   src: url("../fonts/titulos/Act_Of_Rejection.ttf");
 }
 
+h1 {
+  font-family: "Oct of Rejection";
+}
+
 html,
 body {
   padding: 0;
