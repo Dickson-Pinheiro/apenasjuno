@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Gotham light";
+    src: url('../fonts/textos\ longos/GOTHAM-LIGHT.ttf');
+}
+
+@font-face {
+    font-family: "Gotham light italic";
+    src: url('../fonts/textos\ longos/GOTHAM-LIGHTITALIC.ttf');
+}
+
+@font-face {
+  font-family: "Oct of Rejection";
+  src: url('../fonts/titulos/Act_Of_Rejection.ttf');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Gotham light;
 }
 
 a {

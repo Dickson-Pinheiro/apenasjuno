@@ -1,65 +1,55 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import capa from '../assets/mais_aceso_que_o_diabo_capa.jpg'
+import spotify from '../assets/plataformas/icone_spotify_vermelho.png'
+import deezer from '../assets/plataformas/icone_deezer_vermelho.png'
+import youtube from '../assets/plataformas/icone_youtube_vermelho.png'
+import appleMusic from '../assets/plataformas/icone_apple_vermelho.png'
+import tidal from '../assets/plataformas/icone_tidal_vermelho-01.png'
+
+import facebookIcon from '../assets/icons/brancos/icone_facebook_branco.png'
+import instagramIcon from '../assets/icons/brancos/icone_instagram_branco.png'
+import youtubeIcon from '../assets/icons/brancos/icone_youtube_branco-01.png'
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Apenas Juno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className={styles.initialApp}>
+        <header className={styles.containerHeader}>
+            <h1>Apenas Juno</h1>
+            <div className={styles.menuMobile}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </header>
+        <div className={styles.containerMain}>
+          <img src={capa} alt="Capa" />
+          <div className={styles.plataforms}>
+              <h1>mais aceso que <br/>o <strong>DIABO</strong></h1>
+              <h2>OUÇA AGORA</h2>
+              <div className={styles.containerPlataforms}>
+                <img className={styles.ajuste} src={spotify} alt="spotify"/>
+                <img className={styles.ajuste} src={deezer} alt="deezer"/>
+                <img src={youtube} alt="youtube"/>
+                <img  src={appleMusic} alt="Apple Music"/>
+                <img className={styles.ajuste} src={tidal} alt="tidal"/>
+              </div>
+          </div>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      </div>
+      <div className={styles.socialMedia}>
+        <div className={styles.containerSocialMedia}>
+          <img src={facebookIcon} alt="facebook" />
+          <img className={styles.instagram} src={instagramIcon} alt="instagram" />
+          <img src={youtubeIcon} alt="youtube" />
+        </div>
+      </div>
     </div>
   )
 }
