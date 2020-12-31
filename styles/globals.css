@@ -2,20 +2,18 @@
 
 @font-face {
     font-family: "Gotham light";
-    src: url("../fonts/textos_longos/GOTHAM-LIGHT.TTF")format("ttf");
-}
-
-@font-face {
-  font-family: "Oct of Rejection";
-  src: url("../fonts/titulos/Act_Of_Rejection.ttf")format("ttf");
+    src: url("../fonts/textos\ longos/GOTHAM-LIGHT.ttf");
 }
 
 @font-face {
     font-family: "Gotham light italic";
-    src: url("../fonts/textos_longos/GOTHAM-LIGHTITALIC.TTF")format("ttf");
+    src: url("../fonts/textos\ longos/GOTHAM-LIGHTITALIC.ttf");
 }
 
-
+@font-face {
+  font-family: "Oct of Rejection";
+  src: url("../fonts/titulos/Act_Of_Rejection.ttf");
+}
 
 html,
 body {

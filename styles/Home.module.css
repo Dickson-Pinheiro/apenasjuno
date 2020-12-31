@@ -18,7 +18,7 @@
 .containerHeader h1 {
   color: white;
   letter-spacing: 5px;
-  font-family: Oct of Rejection;
+  font-family: "Oct of Rejection";
   font-size: 20px;
   cursor: pointer;
 }
@@ -64,7 +64,7 @@
 
 .plataforms h1 {
   text-align: center;
-  font-family: Oct of Rejection;
+  font-family: "Oct of Rejection";
   color: white;
   letter-spacing: 3px;
   font-size: 30px;
