@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: "Gotham light";
-    src: url("./fonts/textosLongos/GOTHAM-LIGHT.ttf");
+    src: url("./fontes/textosLongos/gotham-light.ttf");
 }
 
 @font-face {
     font-family: "Gotham light italic";
-    src: url("./fonts/textosLongos/GOTHAM-LIGHTITALIC.ttf");
+    src: url("./fontes/textosLongos/gotham-lightitalic.ttf");
 }
 
 @font-face {
   font-family: "Oct of Rejection";
-  src: url("./fonts/titulos/Act_Of_Rejection.ttf");
+  src: url("./fontes/titulos/Act_Of_Rejection.ttf");
 }
 
 h1 {
