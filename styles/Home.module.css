@@ -3,6 +3,7 @@
   background-image: url('../assets/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .containerHeader {
@@ -141,8 +142,6 @@ img.ajuste:hover {
 
 .section2 img {
   width: 45vw;
-  min-width: 563px;
-  min-height: 563px;
 }
 
 .containerText {
@@ -150,7 +149,6 @@ img.ajuste:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 400px;
 }
 
 .containerContent {
@@ -219,7 +217,7 @@ img.ajuste:hover {
 
 @media (max-height: 600px){
   .initialApp {
-    height: 600px;
+    min-height: 600px;
   }
 }
 
@@ -239,10 +237,12 @@ img.ajuste:hover {
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 750px){
   .containerPlataforms {
     flex-direction: column;
-    width: initial;
+  }
+  .containerPlataforms {
+    width: 100%;
   }
 }
 @media (max-width: 530px){
@@ -254,6 +254,7 @@ img.ajuste:hover {
 @media (max-width: 430px){
   .containerMain > img {
     width: 100vw;
+
   }
 }
 
@@ -262,11 +263,20 @@ img.ajuste:hover {
       right: 10%;
     }
 }
+
+@media (min-width: 600px) {
+  .section2 {
+    min-width: 563px;
+    min-height: 563px;
+  }
+}
+
 @media (max-width: 1075px) {
   .section2 {
     flex-direction: column;
   }
   .section2 img {
+    min-width: inherit;
     width: 100%;
   }
   .containerText {
