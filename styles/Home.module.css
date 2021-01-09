@@ -140,7 +140,7 @@ img.ajuste:hover {
 }
 
 .section2 img {
-  width: 47vw;
+  width: 45vw;
 }
 
 .containerText {
@@ -155,7 +155,7 @@ img.ajuste:hover {
 }
 
 .containerContent h1 {
-  font-size: 55px;
+  font-size: 50px;
   letter-spacing: 8px;
   color: #d2394a;
 }
@@ -163,7 +163,7 @@ img.ajuste:hover {
 .containerContent p {
   font-size: 18px;
   text-align: justify;
-  padding-right: 6vw;
+  padding-right: 25%;
 }
 
 .containerContent h2 {

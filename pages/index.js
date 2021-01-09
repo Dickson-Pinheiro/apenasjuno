@@ -35,7 +35,7 @@ export default function Home() {
           <img src={capa} alt="Capa" />
           <div className={styles.plataforms}>
               <h1>mais aceso que <br/>o <strong>DIABO</strong></h1>
-              <h2>OUÇA AGORA</h2>
+              <h2>OUÇA  &nbsp;AGORA</h2>
               <div className={styles.containerPlataforms}>
                 <img className={styles.ajuste} src={spotify} alt="spotify"/>
                 <img className={styles.ajuste} src={deezer} alt="deezer"/>
