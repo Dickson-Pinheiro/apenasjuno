@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Gotham light";
-    src: url("../fonts/GOTHAM-LIGHT.ttf");
+    src: url("../fonts/GOTHAM-LIGHT.TTF");
 }
 
 @font-face {
@@ -10,6 +10,6 @@
 
 @font-face {
     font-family: "Gotham light italic";
-    src: url("../fonts/GOTHAM-LIGHTITALIC.ttf");
+    src: url("../fonts/GOTHAM-LIGHTITALIC.TTF");
 }
 
