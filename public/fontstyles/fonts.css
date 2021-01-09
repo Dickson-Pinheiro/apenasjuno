@@ -4,11 +4,12 @@
 }
 
 @font-face {
+  font-family: "Oct of Rejection";
+  src: url("../fonts/Act_Of_Rejection.ttf");
+}
+
+@font-face {
     font-family: "Gotham light italic";
     src: url("../fonts/GOTHAM-LIGHTITALIC.ttf");
 }
 
-@font-face {
-  font-family: "Oct of Rejection";
-  src: url("../fonts/Act_Of_Rejection.ttf");
-}
