@@ -75,7 +75,6 @@
 
 .plataforms h2 {
   text-align: center;
-  font-family: "Gotham Light";
   color: white;
   font-size: 15px;
   width: 120px;
@@ -162,7 +161,6 @@ img.ajuste:hover {
 }
 
 .containerContent p {
-  font-family: "Gotham light";
   font-size: 18px;
   text-align: justify;
   padding-right: 6vw;
@@ -171,7 +169,6 @@ img.ajuste:hover {
 .containerContent h2 {
   margin-top: 25px;
   color: white;
-  font-family: Gotham light;
   font-size: 15px;
   display: flex;
   justify-content: center;
