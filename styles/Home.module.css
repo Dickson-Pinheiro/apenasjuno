@@ -18,8 +18,7 @@
 .containerHeader h1 {
   color: white;
   letter-spacing: 5px;
-  font-family: "Oct of Rejection";
-  font-size: 20px;
+  font-size: 23px;
   cursor: pointer;
 }
 
@@ -138,6 +137,82 @@ img.ajuste:hover {
   width: 26px;
   cursor: pointer;
 }
+.section2 {
+  display: flex;
+}
+
+.section2 img {
+  width: 47vw;
+}
+
+.containerText {
+  width: 53vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerContent {
+  width: 45vw;
+}
+
+.containerContent h1 {
+  font-size: 55px;
+  letter-spacing: 8px;
+  color: #d2394a;
+}
+
+.containerContent p {
+  font-family: Gotham light;
+  font-size: 18px;
+  text-align: justify;
+  padding-right: 6vw;
+}
+
+.containerContent h2 {
+  margin-top: 25px;
+  color: white;
+  font-family: Gotham light;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 340px;
+  line-height: 32px;
+  background-color: #861525;
+  letter-spacing: 2px;
+}
+
+
+.footerPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  background-color: #861525;
+}
+
+.containerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.containerFooter p {
+  color: white;
+  font-size: 18px;
+}
+
+.containerFooter h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 23px;
+  cursor: pointer;
+}
 
 @media (max-height: 600px){
   .initialApp {
@@ -159,6 +234,7 @@ img.ajuste:hover {
     width: 700px;
   }
 }
+
 
 @media (max-width: 800px){
   .containerPlataforms {
