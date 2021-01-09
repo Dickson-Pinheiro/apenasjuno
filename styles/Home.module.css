@@ -141,21 +141,28 @@ img.ajuste:hover {
 
 .section2 img {
   width: 45vw;
+  min-width: 563px;
+  min-height: 563px;
 }
 
 .containerText {
-  width: 53vw;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 400px;
 }
 
 .containerContent {
-  width: 45vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px 40px 20px 20px;
 }
 
 .containerContent h1 {
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 8px;
   color: #d2394a;
 }
@@ -163,7 +170,6 @@ img.ajuste:hover {
 .containerContent p {
   font-size: 18px;
   text-align: justify;
-  padding-right: 25%;
 }
 
 .containerContent h2 {
@@ -200,7 +206,7 @@ img.ajuste:hover {
 
 .containerFooter p {
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Gotham light italic";
 }
 
@@ -255,4 +261,15 @@ img.ajuste:hover {
     .socialMedia {
       right: 10%;
     }
+}
+@media (max-width: 1075px) {
+  .section2 {
+    flex-direction: column;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .containerText {
+    width: 100%;
+  }
 }
