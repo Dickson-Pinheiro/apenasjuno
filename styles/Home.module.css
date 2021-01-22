@@ -156,7 +156,7 @@ img.ajuste:hover {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
-  padding: 20px 40px 20px 20px;
+  padding: 20px 0px 20px 20px;
 }
 
 .containerContent h1 {
@@ -166,6 +166,7 @@ img.ajuste:hover {
 }
 
 .containerContent p {
+  width: 85%;
   font-size: 18px;
   text-align: justify;
 }
@@ -255,6 +256,9 @@ img.ajuste:hover {
   .containerMain > img {
     width: 100vw;
 
+  }
+  .containerContent h2 {
+    width: 300px;
   }
 }
 

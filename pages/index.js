@@ -59,7 +59,9 @@ export default function Home() {
           <div className={styles.containerText}>
             <div className={styles.containerContent}>
               <h1>Apenas juno</h1>
-              <p>Orgulhosamente potiguar, Apenas Juno nasce em um momento de incertezas, porém com uma convicção, a necessidade de expressar aquilo que sente, transborda e escorre de si. Multi Artista, cantor, compositor, ator, médico e monstro. Apenas Juno canta e compõe sobre seus desejos, lembranças, suas desilusões amorosas e cotidianas. Sua arte descortina-se através do rock e folk ganhando veracidade a partir de suas letras que somam-se ao seu visual extravagante, em um contraste de normalidade e excentricidade.</p>
+              <p>Orgulhosamente potiguar, Apenas Juno nasce em um momento de incertezas, porém com uma convicção, a necessidade de expressar aquilo que sente, transborda e escorre de si.</p>
+              <p>Multi Artista, cantor, compositor, ator, médico e monstro. Apenas Juno canta e compõe sobre seus desejos, lembranças, suas desilusões amorosas e cotidianas.</p>
+              <p> Sua arte descortina-se através do rock e folk ganhando veracidade a partir de suas letras que somam-se ao seu visual extravagante, em um contraste de normalidade e excentricidade.</p>
               <h2>CONTATO@APENASJUNO.COM</h2>
             </div>
           </div>
