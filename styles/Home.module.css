@@ -257,6 +257,10 @@ img.ajuste:hover {
     width: 100vw;
 
   }
+  .containerContent {
+    justify-content: center;
+    padding: 10px;
+  }
   .containerContent h2 {
     width: 300px;
   }
