@@ -59,7 +59,7 @@ export default function Home() {
           <div className={styles.containerText}>
             <div className={styles.containerContent}>
               <h1>Apenas juno</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam ante in venenatis pellentesque. Quisque lorem sapien, rhoncus ut quam quis, fermentum luctus velit. Curabitur luctus in sapien sit amet pharetra. Nulla euismod dolor lacinia lacus dapibus, non sagittis sem interdum. Nunc arcu neque, consequat et ligula et, pulvinar sagittis arcu. Curabitur sagittis erat magna, eget sodales mauris consectetur ut. Maecenas sodales mattis vulputate. Sed hendrerit tincidunt nisl nec semper. Sed iaculis ultrices euismod. Aenean lobortis turpis a sem sagittis, in dignissim felis consectetur. Quisque malesuada ornare tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent finibus, enim sit amet elementum viverra, dolor tortor ornare metus, tempus laoreet lorem lacus nec quam. Nam laoreet mi porttitor lorem dapibus interdum. Pellentesque ut aliquet sapien.</p>
+              <p>Orgulhosamente potiguar, Apenas Juno nasce em um momento de incertezas, porém com uma convicção, a necessidade de expressar aquilo que sente, transborda e escorre de si. Multi Artista, cantor, compositor, ator, médico e monstro. Apenas Juno canta e compõe sobre seus desejos, lembranças, suas desilusões amorosas e cotidianas. Sua arte descortina-se através do rock e folk ganhando veracidade a partir de suas letras que somam-se ao seu visual extravagante, em um contraste de normalidade e excentricidade.</p>
               <h2>CONTATO@APENASJUNO.COM</h2>
             </div>
           </div>
