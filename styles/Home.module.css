@@ -258,7 +258,7 @@ img.ajuste:hover {
 
   }
   .containerContent {
-    justify-content: center;
+    align-items: center;
     padding: 10px;
   }
   .containerContent h2 {
